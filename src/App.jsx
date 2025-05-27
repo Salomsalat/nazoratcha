@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Login from "./components/Login/login";
 import Signup from "./components/Signup/signup";
-import "./App.css";
 import Home from "./components/Home/Home";
+import "./App.css";
 
 function App() {
   const user = localStorage.getItem("user");
